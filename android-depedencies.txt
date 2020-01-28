@@ -1,0 +1,28 @@
+- android extension :
+	androidExtensions {
+    		experimental = true
+	}
+
+- circle image view 
+	implementation 'de.hdodenhof:circleimageview:3.0.1'
+
+- recycler view 
+	implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+- card view 
+	implementation 'androidx.cardview:cardview:1.0.0'
+
+- picasso
+	implementation 'com.squareup.picasso:picasso:2.71828'
+
+- Room dependecy
+	def room_version = "2.2.3"
+	implementation "androidx.room:room-runtime:$room_version"
+    	kapt "androidx.room:room-compiler:$room_version"
+
+- Koin Injection
+	def koin_version = "2.0.1"
+	implementation "org.koin:koin-android:$koin_version"
+    	implementation "org.koin:koin-androidx-scope:$koin_version"
+    	implementation "org.koin:koin-androidx-viewmodel:$koin_version"
+    	implementation "org.koin:koin-androidx-ext:$koin_version"
